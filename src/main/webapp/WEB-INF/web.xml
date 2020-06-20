@@ -10,4 +10,9 @@
         <url-pattern>/welcome</url-pattern>
     </filter-mapping>
 
+    <error-page>
+        <exception-type>java.lang.Exception</exception-type>
+        <location>/errorHandler</location>
+    </error-page>
+
 </web-app>
